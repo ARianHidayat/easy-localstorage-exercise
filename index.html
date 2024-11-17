@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Profile</title>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile_card">
+            <div class="left_profile">
+                <img src="asset/images/spongebobProfile.jpg" alt="profile">
+                <div class="sub_left_profile">
+                    <div class="sub_left_text">
+                        <h1 id="nama">Nama Anda</h1>
+                        <h4 id="role">Peran</h4>
+                    </div>
+                    <div class="sub_left_btn">
+                        <button id="btn_edit">Edit</button>
+                        <button id="btn_resume">Resume</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right_profile">
+                <div class="key_right_profile">
+                    <p>Availability</p>
+                    <p>Usia</p>
+                    <p>Lokasi</p>
+                    <p>Pengalaman</p>
+                    <p>Email</p>
+                </div>
+                <div class="value_right_profile">
+                    <p id="avail">Full Time</p>
+                    <p id="usia">Usia Anda</p>
+                    <p id="lokasi">Tempat Tinggal</p>
+                    <p id="pengalaman">Lama Bekerja</p>
+                    <p id="email">email@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <p>Nama</p>
+            <input type="text" id="inputNama">
+            <p>Role</p>
+            <input type="text" id="inputRole">
+            <p>Availability</p>
+            <input type="text" id="inputAvail">
+            <p>Usia</p>
+            <input type="text" id="inputUsia">
+            <p>Lokasi</p>
+            <input type="text" id="inputLokasi">
+            <p>Years Experience</p>
+            <input type="text" id="inputPengalaman">
+            <p>Email</p>
+            <input type="text" id="inputEmail">
+            <button id="btn_submit">submit</button>
+        </div>
+    </div>
+    <script src="asset/script.js"></script>
+</body>
+</html>
